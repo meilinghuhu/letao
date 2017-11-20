@@ -1,0 +1,207 @@
+/*
+* @Author: 泥娃娃
+* @Date:   2017-11-18 19:13:08
+* @Last Modified by:   泥娃娃
+* @Last Modified time: 2017-11-19 01:10:47
+*/
+body,div,h1,h2,h3,h4,h5,h6,p,span,a,ul,li,img {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body {
+	background-color: #f5f5f5;
+}
+.banner {
+	padding: 0 2px ;
+}
+.w {
+	width: 100%;
+	padding:  0 10px ;
+	box-sizing: border-box;
+}
+/* 搜索框 */
+.header {
+	width:  100%;
+	height:  40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: black;
+}
+.header h2 {
+	color: #fff;
+}
+.header a {
+	display: block;
+	width:  40px;
+	height:  40px;
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	background:  url("images/jd-sprites.png") -240px 0px;
+}
+
+/* 中间部分 */
+.nav {
+	margin-bottom: 100px;
+	height: 110%;
+}
+/* 轮播图 */
+.center .carousel {
+	width:  100%;
+}
+.carousel img{
+	width:  100%;
+	vertical-align: middle;
+}
+/* 产品导航 */
+
+.pro ul {
+	width: 100%;
+	height: 100%;
+	padding: 10px 0;
+	box-sizing: border-box;
+	text-align: center;
+	overflow: hidden;
+}
+.pro li{
+	width: 33%;
+	float: left;
+}
+.pro  img{
+	width: 100%;
+}
+/* 热卖区 */
+.hot {
+	width: 100%;
+	border-top: 2px solid #ccc;
+	position: relative;
+	overflow: hidden;
+}
+.hot .left {
+	width: 67%;
+	float: left;
+
+}
+.hot .left ul {
+	width: 100%;
+	overflow: hidden;
+}
+.hot .left li {
+	width: 50%;
+	float:  left;
+
+}
+.left img {
+	width: 100%;
+	vertical-align: middle;	
+}
+.right {
+	width: 33%;
+	float: right;
+}
+.right img {
+	width: 100%;
+}
+/* 品牌专区 */
+.brand {
+	width: 100%;
+	padding: 10px 10px 0px 10px;
+	box-sizing: border-box;
+}
+.brand .brand_title img {
+	width: 100%;
+}
+.brand .brand_nav ul {
+	width: 100%;
+	overflow: hidden;
+}
+.brand .brand_nav li {
+	width: 25%;
+	float:  left;
+}
+.brand .brand_nav img {
+	width: 100%;
+	vertical-align: middle;	
+}
+/* 运动生活区 */
+.sports {
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.sports .sports_pir {
+	width: 100%;
+}
+.sports .sports_title img {
+	width: 100%;
+}
+.sports .sports_pir ul {
+	width: 100%;
+	overflow:  hidden;
+}
+.sports_pir li {
+	width: 48%;
+	float: left;
+	border: 1px solid #ccc;
+	text-align: center;
+	background-color: #fff;
+}
+.sports_pir li:nth-child(1),
+.sports_pir li:nth-child(3){
+	margin-right: 2%;
+	margin-bottom: 10px;
+}
+.sports_pir img {
+	width: 100%;
+}
+.sports_pir p {
+	margin-bottom: 10px;
+}
+.sports_pir span {
+	color:  red;
+}
+.sports_pir s {
+	color: #ccc;
+}
+.sports_pir a {
+	display: inline-block;
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	background-color: pink;
+	margin: 10px 0px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+
+}
+/* 底部导航 */
+.box {
+	width: 100%;
+	height: 44px;
+}
+.footer {
+	width: 100%;
+	height:  44px;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+}
+.footer ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	text-align: center;
+	vertical-align: middle;
+}
+.footer li {
+	flex: 1;
+	height: 100%;
+}
+.footer img {
+	height: 44px;
+}
+
+
